@@ -1,9 +1,9 @@
 {
     "name": "youcode/projet-mvc-php",
     "autoload": {
-        "psr-4": {
-            "Youcode\\ProjetMvcPhp\\": "src/"
-        }
+        "classmap": [
+            "app/"
+        ]
     },
     "authors": [
         {
@@ -11,5 +11,8 @@
             "email": "mohammedennaim99@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "twig/twig": "^3.18"
+    }
 }
