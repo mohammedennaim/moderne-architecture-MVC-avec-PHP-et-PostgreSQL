@@ -1,0 +1,15 @@
+{
+    "name": "youcode/projet-mvc-php",
+    "autoload": {
+        "psr-4": {
+            "Youcode\\ProjetMvcPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohammedennaim",
+            "email": "mohammedennaim99@gmail.com"
+        }
+    ],
+    "require": {}
+}
