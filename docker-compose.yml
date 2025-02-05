@@ -29,7 +29,7 @@ services:
       context: ./
       dockerfile: DockerFile
     volumes:
-      - ./projet/html:/var/www/html
+      - .:/var/www/html
     ports:
       - "80:80"
     depends_on:
